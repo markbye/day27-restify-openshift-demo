@@ -106,6 +106,6 @@ server.del({path : PATH +'/:jobId' , version: '0.0.1'} ,deleteJob);
 
 
 server.listen(port ,ip_addr, function(){
-    console.log('%s listening at %s ', server.name , server.url);
+    console.log('%s listening--- at %s ', server.name , server.url);
 })
 
